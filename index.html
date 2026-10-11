@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashat Investment</title>
+<meta name="description" content="Ashat Investment helps individuals, families and businesses grow and protect their wealth through clear advice and disciplined, long-term investing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#10241F; --paper:#F6F4EF; --sand:#EAE5D8; --muted:#3D524C;
+  --gold:#8A6A1F; --gold-light:#D2B26A; --line:#2E4A43; --soft:#B9C7C2;
+  --serif:'Newsreader',Georgia,serif;
+  --sans:'Instrument Sans',Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6}
+a{color:inherit;text-decoration:none}
+a:hover{opacity:.75}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(20px,5vw,72px)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0}
+h2{font-size:clamp(32px,4.5vw,52px);line-height:1.1}
+h3{font-weight:500;font-size:26px}
+.eyebrow{font-size:14px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.btn{display:inline-block;padding:16px 30px;font-weight:600;border-radius:2px;border:1px solid var(--ink)}
+.btn-solid{background:var(--ink);color:var(--paper)}
+
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:24px;padding-bottom:24px}
+.logo{font-family:var(--serif);font-size:28px;letter-spacing:.01em}
+.logo span{color:var(--gold)}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px;font-size:15px;font-weight:500}
+nav .cta{padding:10px 20px;background:var(--ink);color:var(--paper);border-radius:2px}
+
+.hero{padding:clamp(48px,9vw,128px) 0 clamp(48px,7vw,96px)}
+.hero h1{max-width:880px;margin-top:20px;font-size:clamp(40px,7vw,88px);line-height:1.04;letter-spacing:-.015em}
+.hero p.lead{max-width:560px;margin:28px 0 0;font-size:19px;color:var(--muted)}
+.hero .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
+
+.services{background:var(--ink);color:var(--paper);padding:clamp(48px,7vw,96px) 0}
+.services h2{margin-bottom:48px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--line)}
+.card{background:var(--ink);padding:32px 28px 36px}
+.card .num{font-family:var(--serif);font-size:20px;color:var(--gold-light)}
+.card h3{margin:12px 0 10px}
+.card p{margin:0;color:var(--soft);font-size:16px}
+
+.approach{padding:clamp(48px,7vw,96px) 0}
+.approach h2{margin-bottom:48px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px}
+.step{border-top:2px solid var(--gold);padding-top:20px}
+.step h3{margin-bottom:8px}
+.step p{margin:0;color:var(--muted)}
+
+.about{background:var(--sand);padding:clamp(48px,7vw,96px) 0}
+.about .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:48px;align-items:start}
+.about p{margin:0 0 18px;font-size:18px}
+.about p:last-child{color:var(--muted);margin:0}
+
+.contact{padding:clamp(48px,7vw,96px) 0}
+.contact h2{margin-bottom:16px}
+.contact .sub{margin:0 0 40px;max-width:520px;color:var(--muted)}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px}
+.info .label{font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.info div div:last-child{margin-top:6px}
+
+footer{background:var(--ink);color:var(--soft);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding-top:28px;padding-bottom:28px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#top" class="logo">Ashat <span>Investment</span></a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="cta">Book a consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="eyebrow">Investment office · [CITY / COUNTRY]</div>
+      <h1>Patient capital,<br>placed with care.</h1>
+      <p class="lead">Ashat Investment helps individuals, families and businesses grow and protect their wealth through clear advice and disciplined, long-term investing.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-solid">Book a consultation</a>
+        <a href="#services" class="btn">Our services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <div class="grid4">
+        <div class="card"><div class="num">01</div><h3>Portfolio management</h3><p>Diversified portfolios built around your goals, time horizon and appetite for risk.</p></div>
+        <div class="card"><div class="num">02</div><h3>Wealth planning</h3><p>Retirement, education and legacy planning, mapped out in plain language.</p></div>
+        <div class="card"><div class="num">03</div><h3>Business investment</h3><p>Capital strategy for companies: treasury, growth funding and opportunities.</p></div>
+        <div class="card"><div class="num">04</div><h3>Advisory</h3><p>Independent second opinions on investments you already hold or are considering.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="approach" id="approach">
+    <div class="wrap">
+      <h2>How we work</h2>
+      <div class="grid3">
+        <div class="step"><h3>Listen</h3><p>We start with your goals, your timeline and what matters most to you.</p></div>
+        <div class="step"><h3>Plan</h3><p>You receive a clear written strategy, with the reasoning behind each decision.</p></div>
+        <div class="step"><h3>Review</h3><p>We report regularly and adjust as your life and the markets change.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <h2>About Ashat Investment</h2>
+      <div>
+        <p>[ONE PARAGRAPH ABOUT THE FIRM: when it was founded, who it serves, and what makes your approach different.]</p>
+        <p>[FOUNDER NAME], [TITLE]. [SHORT BIO AND CREDENTIALS.]</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Let's talk about your goals</h2>
+      <p class="sub">Arrange a first conversation with no obligation.</p>
+      <div class="info">
+        <div><div class="label">Office</div><div>[STREET ADDRESS]<br>[CITY, POSTCODE]</div></div>
+        <div><div class="label">Phone</div><div><a href="tel:">[PHONE NUMBER]</a></div></div>
+        <div><div class="label">Email</div><div><a href="mailto:">[EMAIL ADDRESS]</a></div></div>
+        <div><div class="label">Hours</div><div>[DAYS AND HOURS]</div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© Ashat Investment</span>
+    <span>[REGULATORY / LICENSE STATEMENT]. Investing involves risk, and capital may be lost.</span>
+  </div>
+</footer>
+
+</body>
+</html>
